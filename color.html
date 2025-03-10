@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .contaim{
+        display:flex;
+        column-gap: 330px;
+
+    }
+    #btn1{
+        width: 222px;
+        padding: 20px;
+    }
+    </style>
+</head>
+<body>
+   
+
+    <script>
+        let a=document.createElement('h1')
+      
+        a.textContent='welcome, to color colorflip'
+        document.body.appendChild(a)
+        a.style.textTransform='uppercase'
+        a.style.textShadow='0 0 20px white'
+        a.style.color='lawngreen'
+      
+       
+      
+     
+        
+
+
+        function press(){
+            let r=document.getElementById('rr')
+           
+            let h=document.getElementById('yy')
+            let f=document.getElementById('gg')
+            let a=document.querySelector('body')
+        
+            r.style.textTransform='uppercase'
+        r.style.textShadow='0 0 20px white'
+        r.style.padding='20px'
+        r.style.color='white'
+        r.style.backgroundColor='red'
+
+        a.style.backgroundColor='red'
+        alert('u choose anger')
+       
+           
+       
+       
+
+           
+        }
+        function ee(){
+            let g=document.getElementById('bb')
+            let s=document.querySelector('body')
+        
+            g.style.textTransform='uppercase'
+        g.style.textShadow='0 0 20px white'
+        g.style.padding='20px'
+        g.style.color='white'
+        g.style.backgroundColor='blue'
+
+        s.style.backgroundColor='blue'
+        alert('u choose strength')
+        }
+        function ww(){
+            let w=document.getElementById('gg')
+            let f=document.querySelector('body')
+        
+            w.style.textTransform='uppercase'
+        w.style.textShadow='0 0 20px white'
+        w.style.padding='20px'
+        w.style.color='white'
+        w.style.backgroundColor='green'
+
+        f.style.backgroundColor='green'
+        alert('u choose sacrifice')
+        }
+        function hh(){
+            let w=document.getElementById('yy')
+            let f=document.querySelector('body')
+        
+            w.style.textTransform='uppercase'
+        w.style.textShadow='0 0 20px black'
+        w.style.padding='20px'
+        w.style.color='black'
+        w.style.backgroundColor='yellow'
+
+        f.style.backgroundColor='yellow'
+        alert('u choose peace')
+        }
+
+
+    </script>
+    <div class="contaim">
+     <div id="btn1">
+        <h2 style="color: yellowgreen;">im red</h2>
+    <button id="rr" onclick="press()" style="background-color: red; color: white; box-shadow: 0 0 20px black; padding: 10px; border-radius: 5px;">danger</button>
+    </div>
+    <div class="btn1">
+        <h2 style="color: yellowgreen;">im green</h2>
+    <button id="gg" onclick="ww()" style="background-color: green; color: white; box-shadow: 0 0 20px black; padding: 10px; border-radius: 5px;">safe</button>
+    </div>
+    <div class="btn1">
+        <h2 style="color: yellowgreen;"> im blue</h2>
+    <button id="bb"  onclick="ee()" style="background-color:blue; color: white; box-shadow: 0 0 20px black; padding: 10px; border-radius: 5px;">primary</button>
+    </div>
+    <div class="btn1">
+        <h2 style="color: yellowgreen;">im yellow</h2>
+    <button id="yy" onclick="hh()" style="background-color: yellow; color: darkblue; box-shadow: 0 0 20px black; padding: 10px; border-radius: 5px;">steady</button>
+    </div>
+    </div>
+</body>
+</html>
